@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    // flex-direction: column;
+    .content-article {
+        flex: 7;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .content-sidebar {
+        flex: 5;
+        height: 50vh;
+        overflow: auto;
+        position: sticky;
+        top: 10%;
+        position: -webkit-sticky;
+    }
+}

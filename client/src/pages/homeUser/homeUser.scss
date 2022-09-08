@@ -1,0 +1,20 @@
+.homeUser {
+    display: flex;
+    .homeUser-left {
+        flex: 1;
+    }
+    .homeUser-content {
+        flex: 8;
+        padding: 0 50px;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+        h1 {
+            margin: 40px 0 40px 0;
+            padding-bottom: 40px;
+            border-bottom: 1px solid lightgray;
+        }
+    }
+    .homeUser-right {
+        flex: 3;
+    }
+}

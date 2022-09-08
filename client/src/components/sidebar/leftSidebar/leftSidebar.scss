@@ -1,0 +1,33 @@
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    .sidebar__logo {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+    .sidebar__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        .icon,
+        .icon-write,
+        .icon-read {
+            margin: 20px 0;
+            cursor: pointer;
+        }
+        .icon-write {
+            border-top: 1px solid black;
+            padding: 40px 2px;
+        }
+        .icon-read {
+            margin-bottom: 20px;
+        }
+    }
+}

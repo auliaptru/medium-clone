@@ -1,0 +1,120 @@
+.article {
+    font-family: var(--ff-varela-round);
+    padding: 50px 70px;
+    height: 100%;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    .article-info__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .article__author {
+            display: flex;
+            align-items: center;
+            .author-img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+            .article-info {
+                .author-name {
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+                .article-date {
+                    color: gray;
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        .author-socmed {
+            font-size: 18px;
+            .icon {
+                margin: 0 10px;
+                cursor: pointer;
+            }
+            .icon-bm {
+                margin-left: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+    .article__wrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .singlePost-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 7px;
+            margin-bottom: 20px;
+        }
+        .article-icon {
+            margin-right: 10px;
+            margin-bottom: 30px;
+        }
+        .article-title__update {
+            margin: 10px 0 20px 0;
+            font-size: 20px;
+            border: none;
+            border-bottom: 1px solid lightgray;
+            &:focus {
+                outline: none;
+            }
+        }
+        .title {
+            font-size: 2.8rem;
+            margin-top: 20px;
+            .singlePost-edit__icon {
+                float: right;
+                font-size: 16px;
+                .singlePost-icon {
+                    margin-left: 10px;
+                    cursor: pointer;
+                    &:last-child {
+                        color: tomato;
+                    }
+                }
+            }
+        }
+        .cate-article {
+            margin-bottom: 20px;
+            background: lightgray;
+            border-radius: 10px;
+            width: 120px;
+            text-align: center;
+            padding: 5px 10px;
+            color: black;
+            cursor: pointer;
+        }
+        .singlePost-desc__update {
+            font-size: 14px;
+            line-height: 25px;
+            height: 50px;
+            margin-top: 10px;
+            &:focus {
+                outline: none;
+            }
+        }
+        .post-desc {
+            line-height: 30px;
+            font-size: 1.1rem;
+        }
+        .updatePost-btn {
+            width: 100px;
+            border: none;
+            background-color: black;
+            padding: 5px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-end;
+            margin-top: 20px;
+        }
+    }
+}

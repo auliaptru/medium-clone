@@ -1,0 +1,67 @@
+.articles {
+    display: flex;
+    flex-direction: row;
+    .articles__wrapper {
+        display: flex;
+        flex-direction: row;
+        .trending__articles {
+            .article__author {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                .author-img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                    object-fit: cover;
+                }
+            }
+            .article-content {
+                .article-content__wrapper {
+                    cursor: pointer;
+                    .article-content__title {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                    }
+                    .article-content__desc {
+                        font-size: 14px;
+                        color: #444;
+                        line-height: 24px;
+                        width: 600px;
+                        margin-top: 15px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+                .article-content__info {
+                    margin-bottom: 40px;
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    .article-date {
+                        margin-right: 20px;
+                    }
+                    .article-cate {
+                        background: lightgray;
+                        padding: 5px 10px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .article-img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+    }
+}

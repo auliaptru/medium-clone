@@ -1,0 +1,14 @@
+.articleByCategories {
+    display: flex;
+    .articleByCategories-left {
+        flex: 1;
+    }
+    .articleByCategories-contents {
+        flex: 7.5;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+    }
+    .articleByCategories-right {
+        flex: 3.5;
+    }
+}

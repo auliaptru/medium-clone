@@ -1,0 +1,12 @@
+.profile {
+    display: flex;
+    .left-sidebar {
+        flex: 1;
+    }
+    .setting-profile {
+        flex: 8.5;
+    }
+    .right-sidebar {
+        flex: 3.5;
+    }
+}

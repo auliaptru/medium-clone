@@ -1,0 +1,13 @@
+.page {
+    display: flex;
+    .page__left-sidebar {
+        flex: 1;
+    }
+    .page__content {
+        flex: 8;
+        // padding: 20px;
+    }
+    .page__right-sidebar {
+        flex: 3;
+    }
+}

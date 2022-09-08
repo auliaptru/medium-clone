@@ -1,0 +1,67 @@
+.topbar {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-family: var(--ff-lora);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 999;
+    .topbar__left,
+    .topbar__right {
+        flex: 6;
+    }
+    .topbar__left {
+        .topbar-title {
+            display: flex;
+            text-align: center;
+            margin-left: 70px;
+            .icon {
+                font-size: 40px;
+                cursor: pointer;
+            }
+            p {
+                margin-left: 10px;
+                font-weight: 600;
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    .topbar__right {
+        .topbar-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            list-style: none;
+            .topbar-list__item {
+                margin-left: 30px;
+                font-size: 14px;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                &.sign-up {
+                    padding: 10px 15px;
+                    border-radius: 20px;
+                    color: black;
+                    font-weight: 600;
+                    border: none;
+                    background-color: white;
+                    font-size: 12px;
+                }
+            }
+            .profileImg {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    }
+}

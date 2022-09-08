@@ -1,0 +1,17 @@
+.articleByUser {
+    padding: 50px;
+    font-family: var(--ff-lora);
+    .user-name, .category-name {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid lightgray;
+    }
+    .category-name {
+        font-size: 2rem;
+    }
+    .user-article {
+        border-bottom: 1px solid lightgray;
+        margin: 40px 0;
+    }
+}
